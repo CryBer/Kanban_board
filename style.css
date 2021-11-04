@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "SFPRODISPLAYMEDIUM";
+    src: url(Kanban_board\fonts\SFPRODISPLAYMEDIUM.OTF) format("truetype");
+}
+
+body{
+    background: black;
+}
+
+h1{
+    
+    display:flex;
+    position: absolute;
+    width: 218px;
+    height: 60px;
+    left: 18%;
+
+    /* heading / 50 */
+
+    font-family: "SFPRODISPLAYMEDIUM";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height, or 120% */
+
+    /* gray / 9 white */
+
+    color: #FFFFFF;
+}
+
+#title > a{
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    top: 15%;
+    left: 18%;
+
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    text-decoration-line: underline;
+
+    /* gray / 9 white */
+
+    color: #FFFFFF;
+}
